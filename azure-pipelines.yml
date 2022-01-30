@@ -16,4 +16,3 @@ steps:
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
     projectName: 'C8388289'
-'
