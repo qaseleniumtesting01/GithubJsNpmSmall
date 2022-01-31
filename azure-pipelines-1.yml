@@ -17,4 +17,7 @@ steps:
     cwd: '$(System.DefaultWorkingDirectory)'
     projectName: 'test-failure'
     configuration: |
-      roman = true
+      checkPolicies=true
+      forceUpdate=true
+      forceUpdate.failBuildOnPolicyViolation=true
+      updateInventory=false
