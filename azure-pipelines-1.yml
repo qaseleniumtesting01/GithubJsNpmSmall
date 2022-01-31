@@ -15,9 +15,9 @@ steps:
 - task: WhiteSource@21
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
-    projectName: 'test-failure'
+    projectName: 'test-failure2'
     configuration: |
       checkPolicies=true
       forceUpdate=true
-      forceUpdate.failBuildOnPolicyViolation=true
-      updateInventory=false
+      forceUpdate.failBuildOnPolicyViolation=true updateInventory=true
+    scanReportTimeout: '6'
