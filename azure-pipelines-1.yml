@@ -19,5 +19,6 @@ steps:
     configuration: |
       checkPolicies=true
       forceUpdate=true
-      forceUpdate.failBuildOnPolicyViolation=true updateInventory=true
+      forceUpdate.failBuildOnPolicyViolation=true
+      updateInventory=true
     scanReportTimeout: '6'
