@@ -15,7 +15,7 @@ steps:
 - task: WhiteSource@21
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
-    projectName: 'test-failure2'
+    projectName: 'test-failure'
     configuration: |
       checkPolicies=true
       forceUpdate=true
